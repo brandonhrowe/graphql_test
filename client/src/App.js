@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import BookList from "./components/BookList";
+import AddBook from "./components/AddBook";
 import ApolloClient from "apollo-boost";
 import { ApolloProvider } from "react-apollo";
 // import logo from './logo.svg';
@@ -17,6 +18,7 @@ class App extends Component {
           <header className="App-header">
             <h1>Book List</h1>
             <BookList />
+            <AddBook />
           </header>
         </div>
       </ApolloProvider>
