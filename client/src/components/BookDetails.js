@@ -9,9 +9,9 @@ class BookDetails extends Component {
       <div id="book-details">
         {book ? (
           <div>
-            <p>
+            <h1>
               {book.name} by {book.author.name}
-            </p>
+            </h1>
             <p>Genre: {book.genre}</p>
             <p>Other books by {book.author.name}:</p>
             <ul>
